@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/sldw-core",
+    "crates/sldw-read",
+    "crates/sldw-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+license = "LicenseRef-Proprietary"
+publish = false
+
+[workspace.dependencies]
+flate2 = { version = "1.0", default-features = false, features = ["rust_backend"] }
+sldw-core = { path = "crates/sldw-core" }
+sldw-read = { path = "crates/sldw-read" }
+
+[profile.release]
+lto = "thin"

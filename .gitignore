@@ -1,0 +1,38 @@
+# SolidWorks files: never commit (see README, "Test data")
+*.sldprt
+*.SLDPRT
+*.sldasm
+*.SLDASM
+*.slddrw
+*.SLDDRW
+*.sldprt.*
+*.sldasm.*
+~$*
+backup/
+samples/
+exports/
+corpus/
+# What the command line tool writes from them
+*.obj
+*.mtl
+
+# Build output
+target/
+*.dll
+*.pdb
+*.lib
+*.exp
+*.so
+*.dylib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

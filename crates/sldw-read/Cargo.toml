@@ -1,0 +1,11 @@
+[package]
+name = "sldw-read"
+description = "Reader of SolidWorks parts and assemblies: the saved tessellation as meshes"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+sldw-core.workspace = true

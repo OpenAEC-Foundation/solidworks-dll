@@ -1,0 +1,16 @@
+[package]
+name = "sldw-cli"
+description = "Command line front end of the SolidWorks reader: what a file holds, and its meshes as OBJ"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "sldw"
+path = "src/main.rs"
+
+[dependencies]
+sldw-core.workspace = true
+sldw-read.workspace = true
