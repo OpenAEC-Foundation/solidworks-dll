@@ -4,10 +4,9 @@ Native library that reads SolidWorks parts (`.sldprt`) and assemblies (`.sldasm`
 SolidWorks, for use by [open-bim-suite](https://github.com/OpenAEC-Foundation/open-bim-suite) and
 other tools.
 
-**Status:** private, pre-alpha. Parts and assemblies saved as compound files open as coloured
+**Status:** pre-alpha. Parts and assemblies saved as compound files open as coloured
 triangle meshes, read from the display list SolidWorks saves with the model. All 110 files of
-the sample set open (87 parts, 23 assemblies). Do not make this repository public without a
-decision by the maintainers (see "Legal" below).
+the sample set open (87 parts, 23 assemblies).
 
 ## Scope
 
